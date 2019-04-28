@@ -1,5 +1,35 @@
-p {
-    color: #999999;
-  
+.container {
+    margin: 0 auto;
+    width: 75%;
 }
 
+.logo {
+    float: left;
+    padding: 25px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header {
+    background: teal;
+}
+
+.nav {
+    float: right
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
