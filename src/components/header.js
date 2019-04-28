@@ -1,10 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Navbar, Container } from 'react-bootstrap/Navbar'
+
+import headerStyles from './header.module.scss'
 
 const Header = () => {
     return (
-        <header>
-            <h1>Beth</h1>
+        <header className={headerStyles}>
+  <Container>
+  <Navbar expand="lg" variant="light" bg="light">
+    <Navbar href="#">Navbar</Navbar>
+  </Navbar>
+</Container>
             </header>
     )
 }
