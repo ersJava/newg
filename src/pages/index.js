@@ -1,12 +1,14 @@
 import React from 'react'
 
 import Layout from '../components/layout'
+import Landing from '../components/landing'
 
 const IndexPage = () => {
     return (
         <div>
             <Layout>
-            <h1>Trying this again. Practice is good.</h1>
+                <Landing>
+            </Landing>
             </Layout>
             </div>
     )

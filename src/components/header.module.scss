@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kristi|Raleway:200,300,400');
+
 .container {
     margin: 0 auto;
     width: 75%;
@@ -6,6 +8,11 @@
 .logo {
     float: left;
     padding: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Kristi', cursive;
+    font-size: 52px;
+
 }
 
 header::after {
@@ -15,11 +22,15 @@ header::after {
 }
 
 header {
-    background: teal;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    z-index: 99;
 }
 
 .nav {
-    float: right
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
 
 ul {
@@ -32,4 +43,10 @@ li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 25px;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
 }
