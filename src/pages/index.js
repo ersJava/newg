@@ -8,6 +8,7 @@ const IndexPage = () => {
         <div>
             <Layout>
                 <Landing>
+              
             </Landing>
             </Layout>
             </div>
