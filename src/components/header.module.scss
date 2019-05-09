@@ -8,10 +8,10 @@
 .logo {
     float: left;
     padding: 25px;
-    color: whitesmoke;
+    color: #f1f1f1;
     text-decoration: none;
     font-family: 'Kristi', cursive;
-    font-size: 52px;
+    font-size: 58px;
 
 }
 
@@ -22,15 +22,17 @@ header::after {
 }
 
 header {
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    z-index: 99;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.274);
+    color: #f1f1f1;
+    width: 100%;
+    top: 0;  
 }
 
 .nav {
     float: right;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 ul {
